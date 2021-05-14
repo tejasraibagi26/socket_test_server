@@ -33,7 +33,7 @@ io.on("connection", (client) => {
     console.log(data);
   });
   client.on("load-data", () => {
-    const query = "select * from todo";
+    const query = "select * from todos";
     pdb
       .any(query)
       .then((result) => client.emit("data", result))
