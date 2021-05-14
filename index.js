@@ -40,7 +40,7 @@ io.on("connection", (client) => {
       .catch((err) => console.log(err));
   });
   client.on("add-todo", (data) => {
-    console.log(data);
+    console.log(data["user"]);
     const query = "insert into todo(todo, user) values (${todo}, ${user})";
     pdb
       .any(query, { todo: data["todo"], user: data["user"] })
