@@ -1,0 +1,9 @@
+{
+    "pgURL": "ec2-35-174-35-242.compute-1.amazonaws.com",
+    "pgPort": "5432",
+    "pgDb": "d5ojseqhfgvbac",
+    "pgUser": "nvsrccyoonbpam",
+    "pgPassword": "ded190a5f2b2017edcbd7d9c49eb269fbffb18b409b3e5321cb8d8737bbead96",
+    "PORT": "3000",
+    "NODE_ENV": "production"
+  }
